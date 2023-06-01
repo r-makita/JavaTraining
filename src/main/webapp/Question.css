@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+.sample {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 645px;
+}
+
+.sample .item {
+    flex: none;
+    width: 100px;
+    margin: 5px;
+    text-align: center;
+}
+
+.sample img {
+    width: 200px;
+}
+
+
+

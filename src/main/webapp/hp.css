@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/*フォント指定*/
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+.phont {
+  font-family:"Cooper";
+}
+
+
+/*以下コジコジ*/
+
+.menu-item{
+        margin-left: auto;
+        margin-right: 0 px;
+}
+
+header{
+    width: 100%;
+    padding: 25px 0% 10px 0%;
+    background-color:transparent;
+    position: sticky;
+    top:0;
+}
+
+a{ text-align:center;
+        text-decoration: none;
+        color:black;
+         font-size: 200%;
+}
+nav{
+        margin : 0 0 0 auto;
+}
+
+ul {
+   list-style: none;
+   margin: 0px;
+   margin-left:auto;
+   margin-right:0px;
+   display: flex;
+}
+
+li {
+   font-size: 12px;
+}
+
+
+#column h3{
+        font-family:"Cooper";
+}
+
+#column ul {
+        width: calc(100 + 20px);
+        margin: 0 -10px;
+        display: flex;
+        flex-wrap: wrap;
+        list-style:none;
+}
+
+#column li {
+        padding: 0 10px 20px;
+}
+
+#column li a,
+#column li a:visited {
+        text-decoration: none;
+        color: #111;
+}
+
+#column img{
+        width: 200px;
+        height: 200px;
+}
+
+#column li p {
+
+        font-family: "Cooper;";
+        font-size: 90%;
+        margin-bottom: 3px;
+
+}
+
+#column li span {
+        font-family: "Cooper;";
+        font-size: 70%;
+        display: block;
+}
+
+
+.column03 li {
+        width: calc(33.3333% - 20px);
+}
